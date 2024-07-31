@@ -1,0 +1,127 @@
+.head {
+    color: aliceblue;
+}
+.contener{
+  background-image: url(./assets/images/resBanner.jpg);
+ background-position: center;
+ background-size: 120%;
+}
+.button{
+    
+    margin-right: 10px;
+    
+}
+.logo1{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.head1{
+    background: rgb(102, 62, 62);
+    width: 100%;
+    
+    display: flex;
+        justify-content: space-between;
+}
+.text{
+    color: white;
+    margin-top: 35%;
+    font-size: 12px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.button{
+    width: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(201, 0, 0);
+    color: white;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+.button1{
+    margin-right: 30px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-radius: 7%;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+
+}
+.body2{ 
+    margin-left: 70px;
+    margin-top: 100px;
+    padding-bottom: 470px;
+}
+.logo{
+    width: 400px;}
+    .button:hover {
+        background-color: #bb1515; 
+    }
+   .button1:hover{
+    background-color: rgb(31, 30, 30);
+   }
+.bodytext{
+    color: white;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+.resident{
+    color: white;
+}
+.fantast{
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+}
+.fantast:hover{
+    text-decoration: underline;
+}
+.anonse{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.down{
+    color: white;
+    background-color: rgb(55, 55, 57);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+.down1{
+    margin-right: 900px;
+    margin-top: 15px; 
+}
+.value-prop-logo{
+    width: 25px;
+    margin-left: 10px;
+
+}
+
+.button3{
+    width: 220px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(201, 0, 0);
+    color: white;
+    border-radius: 7%;
+    cursor: pointer;
+}
+.svg-icon{
+    fill:rgb(201, 0, 0)
+}
