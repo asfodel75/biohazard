@@ -1,3 +1,5 @@
+@import url(./assets/fonts/HelveticaNeueLight.otf);
+@import url(./assets/fonts/HelveticaNeueUltraLightItalic.otf);
 .head {
     color: aliceblue;
 }
@@ -5,6 +7,8 @@
   background-image: url(./assets/images/resBanner.jpg);
  background-position: center;
  background-size: 120%;
+ background-repeat: no-repeat;
+ margin: 0px;
 }
 .button{
     
@@ -18,17 +22,18 @@
 }
 
 .head1{
-    background: rgb(102, 62, 62);
+    background: rgb(12, 8, 8);
     width: 100%;
-    
+    margin-bottom: 0px;
     display: flex;
         justify-content: space-between;
+
 }
 .text{
     color: white;
     margin-top: 35%;
     font-size: 12px;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'HelveticaNeueLight', sans-serif ;
 }
 .button{
     width: 220px;
@@ -39,8 +44,9 @@
     padding-bottom: 10px;
     background-color: rgb(201, 0, 0);
     color: white;
-    border-radius: 7%;
+    border-radius: 2px;
     cursor: pointer;
+    font-family: 'HelveticaNeueLight', sans-serif ;
 }
 
 .button1{
@@ -49,12 +55,12 @@
     color: white;
     background-color: black;
     border-color: white;
-    border-radius: 7%;
+    border-radius: 2px;
     border-width: 1px;
     padding-top: 10px;
     padding-bottom: 10px;
     cursor: pointer;
-
+    font-family: 'HelveticaNeueLight', sans-serif ;
 }
 .body2{ 
     margin-left: 70px;
@@ -70,15 +76,16 @@
     background-color: rgb(31, 30, 30);
    }
 .bodytext{
-    color: white;
+    color: rgb(140, 138, 138);
     padding-bottom: 20px;
-    font-weight: lighter;
+    font-weight: 100;
+    font-family: 'HelveticaNeueUltraLightItalic', sans-serif ;
 }
 .resident{
     color: white;
 }
 .fantast{
-    color: white;
+    color: rgb(140, 138, 138);
     font-style: normal;
     text-decoration: none;
 }
@@ -89,6 +96,7 @@
     color: white;
     margin: 0px;
     padding: 0px;
+    font-family: 'HelveticaNeueLight', sans-serif ;
 }
 .down{
     color: white;
@@ -101,27 +109,45 @@
     margin-right: 70px;
 }
 .down1{
-    margin-right: 900px;
+    margin-right: 760px;
     margin-top: 15px; 
+    font-family: 'HelveticaNeueLight', sans-serif ;
 }
 .value-prop-logo{
     width: 25px;
-    margin-left: 10px;
+    margin-left: 40px;
 
 }
 
 .button3{
-    width: 220px;
+    width: 300px;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-right: 40px;
     padding: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: rgb(201, 0, 0);
     color: white;
-    border-radius: 7%;
+    border-radius: 2px;
     cursor: pointer;
+    font-family: 'HelveticaNeueLight', sans-serif ;
 }
 .svg-icon{
     fill:rgb(201, 0, 0)
+}
+.body1{
+    margin: 0px;
+}
+.rol{
+    color: rgb(140, 138, 138);
+    font-family: 'HelveticaNeueLight', sans-serif ;
+    margin-right: 3px;
+}
+.rol1{
+    color: white;
+    font-family: 'HelveticaNeueLight', sans-serif ;
+}
+.anonse1{
+    display: flex;
 }
