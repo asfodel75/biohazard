@@ -5,10 +5,11 @@
 }
 .contener{
   background-image: url(./assets/images/resBanner.jpg);
- background-position: center;
+ background-position: top;
  background-size: 120%;
  background-repeat: no-repeat;
  margin: 0px;
+ top: 0;
 }
 .button{
     
@@ -24,9 +25,11 @@
 .head1{
     background: rgb(12, 8, 8);
     width: 100%;
+    margin-top: 0px;
     margin-bottom: 0px;
     display: flex;
         justify-content: space-between;
+        position: fixed;
 
 }
 .text{
@@ -64,11 +67,17 @@
 }
 .body2{ 
     margin-left: 70px;
-    margin-top: 100px;
-    padding-bottom: 470px;
+    margin-top: 0px;
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .logo{
-    width: 400px;}
+    width: 400px;
+    padding-top: 50px;
+    margin-top: 100px;
+}
     .button:hover {
         background-color: #bb1515; 
     }
@@ -83,6 +92,7 @@
 }
 .resident{
     color: white;
+    
 }
 .fantast{
     color: rgb(140, 138, 138);
@@ -103,7 +113,7 @@
     background-color: rgb(55, 55, 57);
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 100px;
+    margin-top: 0px;
     display: flex;
     justify-content: space-between;
     margin-right: 70px;
@@ -150,4 +160,38 @@
 }
 .anonse1{
     display: flex;
+}
+.basement{
+    
+}
+.basement1{
+    color: rgb(140, 138, 138);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    font-family: 'HelveticaNeueLight', sans-serif ;
+}
+.basement2{
+    color: rgb(140, 138, 138);
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    font-family: 'HelveticaNeueLight', sans-serif ;
+}
+    .hr1{
+        margin-right: 70px;
+    }
+    .hr2{
+        margin-right: 70px;
+    }
+
+
+@media (max-width: 425px) {
+    .logo{ 
+        display: none;
+    }
+    .down {
+        align-items: center;
+    }
+    
 }
